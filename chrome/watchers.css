@@ -1,0 +1,8 @@
+tr#template {display:none;}
+div#post-template {}
+img.ico {width:16px; height:16px;}
+span.dom {}
+div.bar {background-color:#000000; height: 35px; width:50%;}
+table#watchers {width:90%;}
+td.dom {text-align:center;}
+td.bar {border-left-style:dashed; border-right-style:dashed;border-width:1px;border-top-style:none;border-bottom-style:none;}

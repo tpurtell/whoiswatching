@@ -1,0 +1,5 @@
+content whoiswatching chrome/
+style chrome://global/content/customizeToolbar.xul chrome://whoiswatching/content/button.css
+
+# Firefox
+overlay	chrome://browser/content/browser.xul chrome://whoiswatching/content/button.xul

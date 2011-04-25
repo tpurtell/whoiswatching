@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description
+    about="urn:mozilla:install-manifest"
+
+    em:name="Who is Watching?"
+    em:description="See what advertisers and web services know about your browsing history."
+    em:creator="T.J. Purtell"
+
+    em:id="who-is-watching@mobisocial.stanford.edu"
+    em:version="1.0"
+    em:homepageURL="https://mobisocial.stanford.edu"
+
+    em:iconURL="chrome://whoiswatching/content/icon.png" >
+
+    <em:targetApplication><!-- Firefox -->
+      <Description
+        em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+        em:minVersion="3.5"
+        em:maxVersion="99" />
+    </em:targetApplication>
+
+    <em:file>
+      <Description
+        about="urn:mozilla:extension:whoiswatching"
+        em:package="content/whoiswatching/" />
+    </em:file>
+
+  </Description>
+
+</RDF>

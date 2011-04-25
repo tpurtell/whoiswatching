@@ -1,0 +1,20 @@
+#watching-button,
+#wrapper-watching-button
+  {list-style-image: url("chrome://whoiswatching/content/button-1.png");}
+
+.whoiswatching                  
+    {-moz-image-region: rect( 0px 24px 20px  0px);}
+
+/* common style for all custom buttons */
+/*.whoiswatching                  
+  {-moz-image-region: rect( 0px 24px 24px  0px);}
+
+.whoiswatching:hover     
+  {-moz-image-region: rect(24px 24px 48px  0px);}
+
+[iconsize="small"] .whoiswatching
+  {-moz-image-region: rect( 0px 40px 16px 24px);}
+
+[iconsize="small"] .whoiswatching:hover
+  {-moz-image-region: rect(24px 40px 40px 24px);}
+*/
