@@ -1,0 +1,1 @@
+This simple Firefox plugin that records the transmitted referrer data into a local database.  There is a view that shows you which domain's have learned of your browsing history from referrer data.
